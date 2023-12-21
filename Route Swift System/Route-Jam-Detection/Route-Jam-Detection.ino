@@ -24,7 +24,6 @@ int distance3;
 
 void setup() {
 
-  
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(LED, OUTPUT);
@@ -41,7 +40,7 @@ void setup() {
   Serial.begin(9600);
 }
 
-float disCal(){
+float disCal() {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
 
@@ -50,7 +49,6 @@ float disCal(){
   digitalWrite(trigPin, LOW);
 
   duration = pulseIn(echoPin, HIGH);
-
   distance = duration * 0.034 / 2;
 
   Serial.print("Distance (1) = ");
@@ -69,7 +67,6 @@ float disCal2(){
   digitalWrite(trigPin2, LOW);
 
   duration2 = pulseIn(echoPin2, HIGH);
-
   distance2 = duration2 * 0.034 / 2;
   
   Serial.print("Distance (2) = ");
@@ -88,7 +85,6 @@ float disCal3(){
   digitalWrite(trigPin3, LOW);
 
   duration3 = pulseIn(echoPin3, HIGH);
-
   distance3 = duration3 * 0.034 / 2;
 
   Serial.print("Distance (3) = ");
@@ -136,7 +132,7 @@ void loop() {
 
   
   if(cnt==SIZE){
-    Serial.println("ON--1");
+    Serial.println("THE LED-1 IS ON");
     digitalWrite(LED, HIGH);
   }
 
@@ -145,12 +141,12 @@ void loop() {
   }
   if(off>=2){
     off=1;
-    Serial.println("OFF--1");
+    Serial.println("THE LED-1 IS OFF");
     digitalWrite(LED, LOW);
   }
 
   if(cnt2==SIZE and cnt==SIZE){
-    Serial.println("ON--2");
+    Serial.println("THE LED-2 IS ON");
     digitalWrite(LED2, HIGH);
   }
 
@@ -159,22 +155,21 @@ void loop() {
   }
   if(off2>=2 and off==1){
     off2=1;
-    Serial.println("OFF--2");
+    Serial.println("THE LED-2 IS OFF");
     digitalWrite(LED2, LOW);
   }
   
   if(cnt3==SIZE and cnt2==SIZE){
-    Serial.println("ON--3");
+    Serial.println("THE LED-3 IS ON");
     digitalWrite(LED3, HIGH);
   }
-
  
   if(cnt3!=SIZE){
     off3++;
   }
   if(off3>=2 and off2==1){
     off3=1;
-    Serial.println("OFF--2");
+    Serial.println("THE LED-3 IS OFF");
     digitalWrite(LED3, LOW);
   }
 
