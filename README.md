@@ -136,6 +136,7 @@ breaks in front the ultrasonic sensor due to some unexpected
 reason . One stopped vehicle will not create a jam so the meter
 will not show any jam . This logic is also applicable for the
 third layered sensor.
+
  - Bus Stand Barricade: The bus stand is a distinct lane beside the main road . It has a fixed capacity and can not contain more . So, we created a
 system that can measure if the capacity is full or not . If the
 capacity is full then a barricade will close the entrance of the
