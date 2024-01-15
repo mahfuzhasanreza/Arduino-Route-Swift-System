@@ -75,7 +75,7 @@ button.
  - The Length and width of the Arduino are 68.6 mm X 53.4 mm
  - The weight of the Arduino board is 25 g
 
-![Arduino](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/26c7d0c3-a5d2-4fe6-aa67-c5f8d50ac071)
+<img src="https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/26c7d0c3-a5d2-4fe6-aa67-c5f8d50ac071" alt="Arduino" height="350">
 
 ## Ultrasonic Sensor
 Ultrasonic sensors work by sending out a sound wave at a frequency above the range of human hearing. The sensor's transducer acts as a microphone to receive and send the ultrasonic sound. Our ultrasonic sensors, like many others,
@@ -106,7 +106,7 @@ The motor is connected to the gear system, which reduces
 the motor speed increases torque and provides feedback to
 the potentiometer.
 
-![servo](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/bcab6b12-2c86-4cd0-b454-1e3f1b9e673c)
+<img src="https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/bcab6b12-2c86-4cd0-b454-1e3f1b9e673c" alt="servo" height="300">
 
 ## Jumper Wire
 A jumper wire is an electric wire that connects remote electric
@@ -114,7 +114,7 @@ circuits used for printed circuit boards. By attaching a jumper
 wire on the circuit, it can be short-circuited and short-cut
 (jump) to the electric circuit.
 
-![jumper](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/16e7e6b7-655b-4601-9563-c0be8a34bd5a)
+<img src="https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/16e7e6b7-655b-4601-9563-c0be8a34bd5a" alt="jumper" height="300">
 
 ## Bread Board
 A breadboard, solderless breadboard, or protoboard is a
