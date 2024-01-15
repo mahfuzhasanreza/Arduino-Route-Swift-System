@@ -39,7 +39,7 @@ a huge impact on the current traffic system and people to
 understand the condition of the road in their crucial time.
 Identify the applicable funding agency here. If none, delete this.
 
-![srn-1](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/aa4799dc-f406-4af5-a309-a6b744985329)
+![srn-1](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/4e955bbf-53b6-40d8-875e-53c470d38c40)
 
 ## Component List
 We list down our project components then we try to describe
@@ -97,7 +97,7 @@ These types of sensors measure only infrared radiation, rather
 than emitting it which is called a passive IR sensor. Usually, in
 the infrared spectrum, all objects radiate thermal radiation.
 
-![ir](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/30071327-51fb-48ac-849a-3aa90fc373b6)
+![ir](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/088c91ca-ca27-4dd4-a853-66a53239ee46)
 
 ## Servo Motor
 Servos are controlled by sending an electrical pulse of
