@@ -81,7 +81,7 @@ button.
 Ultrasonic sensors work by sending out a sound wave at a frequency above the range of human hearing. The sensor's transducer acts as a microphone to receive and send the ultrasonic sound. Our ultrasonic sensors, like many others,
 use a single transducer to send a pulse and to receive the echo.
 
-![Ultrasonic](https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/33eb3004-c9d1-43ed-9c17-e73acddfa40c)
+<img src="https://github.com/mahfuzhasanreza/Swift-Route-Navigator/assets/115473925/33eb3004-c9d1-43ed-9c17-e73acddfa40c" alt="Ultrasonic" height="300">
 
 ## LED
 A light-emitting diode (LED) is a semiconductor device that
